@@ -2,6 +2,8 @@
 
 This is my solution for the [odin-recipes]() challenge for the Odin Project fundamentals course. I used this as a refresher for HTML and CSS foundations.
 
+**Live preview:** https://srithasriram30.github.io/odin-recipes/
+
 ## What I revisited
 
 - **CSS custom properties:** one place for colours, fonts and spacing
