@@ -3,27 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A small collection of home-cooking recipes: chocolate hot cross buns, marinara sauce and cheesy garlic bread."
+    />
     <title>Odin Recipes</title>
+    <link rel="icon" href="data:," />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="content">
+    <main class="content">
       <h1>Odin Recipes</h1>
 
-      <div id="recipe-list">
-        <div class="recipe-card">
-          <img src="images/hot-cross-buns.jpg" alt="Chocolate Hot Cross Buns" />
-          <a href="recipes/hot-cross-buns.html">Chocolate Hot Cross Buns</a>
-        </div>
-        <div class="recipe-card">
-          <img src="images/marinara-sauce.jpg" alt="Marinara Sauce" />
-          <a href="recipes/marinara-sauce.html">Marinara Sauce</a>
-        </div>
-        <div class="recipe-card">
-          <img src="images/garlic-bread.jpg" alt="Cheesy Garlic Bread" />
-          <a href="recipes/garlic-bread.html">Cheesy Garlic Bread</a>
-        </div>
-      </div>
-    </div>
+      <ul class="recipe-list">
+        <li class="recipe-card">
+          <a href="recipes/hot-cross-buns.html">
+            <img
+              src="images/hot-cross-buns.jpg"
+              alt=""
+              width="640"
+              height="423"
+              decoding="async"
+            />
+            <span>Chocolate Hot Cross Buns</span>
+          </a>
+        </li>
+        <li class="recipe-card">
+          <a href="recipes/marinara-sauce.html">
+            <img
+              src="images/marinara-sauce.jpg"
+              alt=""
+              width="640"
+              height="960"
+              decoding="async"
+            />
+            <span>Marinara Sauce</span>
+          </a>
+        </li>
+        <li class="recipe-card">
+          <a href="recipes/garlic-bread.html">
+            <img
+              src="images/garlic-bread.jpg"
+              alt=""
+              width="640"
+              height="427"
+              decoding="async"
+            />
+            <span>Cheesy Garlic Bread</span>
+          </a>
+        </li>
+      </ul>
+    </main>
   </body>
 </html>
